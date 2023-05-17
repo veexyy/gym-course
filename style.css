@@ -454,6 +454,8 @@ li {
 }
 @media screen and (min-width: 300px) and (max-width: 600px) {
   body {
+    padding: 0;
+    margin: 0;
     overflow-x: hidden;
   }
   .main {
@@ -495,5 +497,42 @@ li {
   .main-sect .main iframe {
     width: 20.5em;
     height: 12.5em;
+  }
+  .weeks {
+    column-gap: 3em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 0.75em;
+  }
+  .header {
+    padding: 0;
+    margin: 0;
+  }
+  .nav .icons img {
+    display: flex;
+    justify-content: center;
+    min-width: 24px;
+  }
+  .nav {
+    margin-top: 1.5em;
+    flex-wrap: wrap;
+    gap: 0;
+  }
+  .lk img {
+    position: absolute;
+    z-index: 12342;
+    min-width: 32px;
+  }
+  .logo {
+    margin-top: 1.5em;
+    margin-left: 0.75em;
+    min-width: 48px;
+  }
+  .nav button {
+    margin-top: 0.75em;
+    font-size: 1em;
+  }
+  .week {
+    margin-left: -2em;
   }
 }
