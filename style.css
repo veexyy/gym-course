@@ -291,7 +291,7 @@ li {
 .choice .menus {
   display: flex;
   justify-content: center;
-  row-gap: 20px;
+  column-gap: 20px;
   font-size: 18px;
   padding-bottom: 64px;
 }
